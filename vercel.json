@@ -3,7 +3,7 @@
   "builds": [
     {
       "src": "api/**/*.php",
-      "use": "@vercel/php@0.7.1"
+      "use": "vercel-php"
     }
   ],
   "routes": [
@@ -19,6 +19,5 @@
       "src": "/s/portal.php",
       "dest": "/api/login.php"
     }
-    
   ]
 }
