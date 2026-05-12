@@ -8,16 +8,12 @@
   ],
   "routes": [
     {
-      "src": "^/$",
-      "dest": "/s/portal.php"
+      "src": "/",
+      "dest": "/api/login.php"
     },
     {
       "src": "^/(.*\\.php)$",
       "dest": "/api/$1"
-    },
-    {
-      "src": "/s/portal.php",
-      "dest": "/api/login.php"
     }
   ]
 }
